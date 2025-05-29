@@ -7,9 +7,12 @@
 ## muti_performance.py
 该文件利用流式服务的方法对模型压测，通过提供服务端的ip和端口，利用sonnet_20.txt数据集去随机生成指定的长度token的提示词，针对不同尺度的图片来进行压测。（这里的时延的计算方法是time.time()）
 # 关键库的版本
->numpy                         2.2.5
-pandas                        2.2.3
-transformers                  4.51.3 
+| Package      | Version |
+|--------------|---------|
+| numpy        | 2.2.5   |
+| pandas       | 2.2.3   |
+| transformers | 4.51.3  |
+
 
 
 
